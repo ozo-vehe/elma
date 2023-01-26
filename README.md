@@ -1,6 +1,5 @@
-# elma
-
-This template should help get you started developing with Vue 3 in Vite.
+# Elma
+Shop the latest trends in fashion, home decor, electronics, and more - all at unbeatable prices on our e-commerce website!
 
 ## Recommended IDE Setup
 
