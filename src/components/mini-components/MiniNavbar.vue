@@ -14,7 +14,7 @@
       <img :src="navIcon1" alt="">
     </div>
 
-    <div class="flex border items-center gap-4">
+    <div class="flex border items-center gap-5">
       <p>Order tracking</p>
       <p>Help</p>
       <input class="border" type="text">
@@ -28,5 +28,9 @@
   }
   main img {
     width: 20px;
+  }
+  p {
+    font-family: "Rubik";
+    color: #637381;
   }
 </style>
