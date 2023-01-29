@@ -1,6 +1,6 @@
 <script setup>
   import { reactive } from 'vue';
-import navIcon1 from '../../assets/icons/Brand.png'
+  import navIcon1 from '../../assets/icons/Brand.png'
   import navIcon2 from '../../assets/icons/Brand1.png'
   import navIcon3 from '../../assets/icons/Brand2.png'
   import navIcon4 from '../../assets/icons/Brand3.png'
