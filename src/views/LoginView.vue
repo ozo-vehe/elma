@@ -3,14 +3,14 @@
   import moneyGuaranteed from '../assets/icons/Money.png';
   import customerSupport from '../assets/icons/Customer Service.png';
   import bestPrices from '../assets/icons/Badge.png';
-  
+
 </script>
 
 <template>
-  <main>
-    <div>
-      <h1>Enjoy all big benefits fro Elma that you can't find in other product again</h1>
-      <div>
+  <main class="flex flex-wrap justify-center gap-x-7 border my-20">
+    <div class="border w-450 flex flex-wrap">
+      <h1 class="w-full border text-4xl font-bold">Enjoy all big benefits from Elma that you can't find in other product again</h1>
+      <div class="productContainer flex flex-wrap w-full">
         <div>
           <img :src="freeShipping" alt="Free Shipping">
           <p>Free Shipping</p>
@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <div>
+    <div class="border w-450">
       <h2>Welcome back</h2>
       <p></p>
       <form>
@@ -62,3 +62,16 @@
     </div>
   </main>
 </template>
+
+<style scoped>
+  main {
+    padding: 0px 12.5%;
+    border-bottom: thin solid #F4F6F8;
+  }
+  .productContainer {
+    border: thin solid red;
+  }
+  .productContainer div {
+    border: thin solid red;
+  }
+</style>
