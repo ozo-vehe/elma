@@ -14,6 +14,9 @@ module.exports = {
         "500": "500px",
         "550": "550px",
         "600": "600px",
+      },
+      colors: {
+        'custom-purple': '#43467F',
       }
     },
   },

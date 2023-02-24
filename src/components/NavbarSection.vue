@@ -1,5 +1,5 @@
 <script setup>
-  import MiniNavbar from './mini-components/MiniNavbar.vue';
+  import SubNavbar from './sub-components/SubNavbar.vue';
   import logo from '../assets/icons/logo.png';
   import searchIcon from '../assets/icons/search.png';
   import cart from '../assets/icons/stroller.png';
@@ -11,7 +11,7 @@
 
 <template>
   <main>
-    <MiniNavbar />
+    <SubNavbar />
 
     <div class="flex justify-between items-center flex-wrap mt-5">
       <div class="flex flex-wrap items-center justify-between w-600 h-12">
