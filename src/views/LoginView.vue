@@ -9,7 +9,7 @@
 <template>
   <main class="flex flex-wrap justify-center gap-x-7 border my-20">
     <div class="w-450 flex flex-wrap pt-4">
-      <h1 class="w-full  text-4xl font-bold">Enjoy all big benefits from Elma that you can't find in other product again</h1>
+      <h1 class="w-full text-4xl font-bold">Enjoy all big benefits from Elma that you can't find in other product again</h1>
       <div class="productContainer flex flex-wrap justify-between w-full">
         <div>
           <img :src="freeShipping" alt="Free Shipping">
