@@ -24,3 +24,25 @@ h1, h2, h3 {
 p, span {
  font-family: "Roboto";
 }
+
+/* MazPhoneInputNumber css customization */
+.m-phone-number-input__select[data-v-b43ec161] {
+  width: 5rem !important;
+}
+.m-input.--should-up .m-input-label[data-v-c13c1d46] {
+  display: none;
+}
+.m-phone-number-input__country-flag[data-v-b43ec161] {
+  bottom: 50%;
+  left: 10px;
+  transform: translateY(50%);
+}
+.m-phone-number-input:not(.--no-flags) .m-phone-number-input__select[data-v-b43ec161] .m-input-wrapper .m-select-input {
+  position: relative;
+  padding-bottom: 20px;
+  width: 100px;
+  transform: translateX(-15px);
+}
+.m-input.--has-label .m-input-input[data-v-c13c1d46] {
+  padding-bottom: 20px;
+}
