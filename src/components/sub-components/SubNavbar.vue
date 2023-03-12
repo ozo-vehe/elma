@@ -24,7 +24,7 @@
 
 <style scoped>
   main {
-    padding: 0px 12.5%;
+    padding: 0px 10%;
     border-bottom: thin solid #F4F6F8;
   }
   main img {

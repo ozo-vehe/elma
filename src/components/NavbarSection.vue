@@ -10,9 +10,8 @@
 </script>
 
 <template>
-  <main>
+  <main class="pb-4">
     <SubNavbar />
-
     <div class="flex justify-between items-center flex-wrap mt-5">
       <div class="flex flex-wrap items-center justify-between w-600 h-12">
         <img class="w-24" :src="logo" alt="Logo">
@@ -56,7 +55,7 @@
 
 <style scoped>
   main > div {
-    padding: 0px 12.5%;
+    padding: 0px 10%;
   }
   .userAccount {
     width: 320px;
