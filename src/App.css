@@ -1,0 +1,29 @@
+nav {
+  height: 90px;
+  padding: 10px 5%;
+}
+.icon {
+  width: 15px;
+}
+.cart span {
+  padding: 0px 5px;
+  top: -13px;
+  left: 10px;
+}
+
+.products {
+  padding: 10px 5%;
+}
+
+main {
+  padding: 50px 5% 0px;
+}
+
+.productCart {
+  top: 56px;
+  min-height: 250px;
+  background-color: white;
+  padding: 10px 20px;
+  z-index: 2
+  /* cursor: pointer; */
+}
